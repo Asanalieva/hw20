@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        try (Car car = new Car()) {
+        try (Car car = new Car("Lexus ES 200",2021)) {
             car.drive();
         }
         catch (Exception e){
